@@ -1,0 +1,133 @@
+{
+"INVERTER":
+ {
+  "dcCapacity": 1700,
+  "prRealRadSetpoint": 250,
+  "Module_inseries": 20,
+  "Module_voc": 45.6,
+  "INV01": {
+            "dcCapacity": 103.495
+           },
+  "INV02": {
+            "dcCapacity": 124.675
+            }, 
+  "INV03": {
+            "dcCapacity": 110.27
+            },
+  "INV04": {
+            "dcCapacity": 121.23
+            },
+  "INV05": {
+            "dcCapacity": 119.265
+            },
+  "INV06": {
+            "dcCapacity": 106.08
+            },
+  "INV07": {
+            "dcCapacity": 118.32
+            },
+  "INV08": {
+            "dcCapacity": 112.545
+           },
+  "INV09": {
+            "dcCapacity": 110.15
+            }, 
+  "INV10": {
+            "dcCapacity": 98.38
+            },
+  "INV11": {
+            "dcCapacity": 110.525
+            },
+  "INV12": {
+            "dcCapacity": 112.26
+            },
+  "INV13": {
+            "dcCapacity": 112.585
+            },
+  "INV14": {
+            "dcCapacity": 112.375
+            },
+  "INV15": {
+            "dcCapacity": 112.605
+            },
+  "INV16": {
+            "dcCapacity": 101.95
+            },
+  "INV17": {
+            "dcCapacity": 114.885
+            }
+ },
+  "EM":
+{
+ "dcCapacity": 680,
+ "prRealRadSetpoint": 1,
+ "DG01_EM": {
+         "dcCapacity": 1650,
+         "prRealRadSetpoint": 1
+         },
+ "DG02_EM": {
+        "dcCapacity": 1650,
+        "prRealRadSetpoint": 1
+        },
+ "EM01": {
+         "dcCapacity": 1000,
+         "prRealRadSetpoint": 1
+         },
+ "EM02": {
+        "dcCapacity": 400,
+        "prRealRadSetpoint": 1
+        },
+ "EM03": {
+         "dcCapacity": 300,
+         "prRealRadSetpoint": 1
+         },
+ "EM04": {
+        "dcCapacity": 100,
+        "prRealRadSetpoint": 1
+        },
+ "ZE_EM01": {
+        "dcCapacity": 850,
+        "prRealRadSetpoint": 1
+        },
+ "ZE_EM02": {
+         "dcCapacity": 850,
+         "prRealRadSetpoint": 1
+         },
+ "Grid_EM01": {
+        "dcCapacity": 850,
+        "prRealRadSetpoint": 1
+        },
+ "Grid_EM02": {
+         "dcCapacity": 850,
+         "prRealRadSetpoint": 1
+         }
+
+ },
+ "PLANT":
+{
+ "prRealRadSetpoint": 1,
+ "totalInvertersAcCapacityS1": 100,
+ "totalInvertersAcCapacityS2": 100,
+ "totalInvertersAcCapacityS3": 100,
+ "dcCapacity": 2000,
+ "dg01Capacity": 1750,
+ "dg01MinLoad": 30,
+ "dg01CriticalLoad": 10,
+ "dg01ForceTune": 2,
+ "dg01Threshold": 1,
+ "dg02Capacity": 1750,
+ "dg02MinLoad": 30,
+ "dg02CriticalLoad": 10,
+ "dg02ForceTune": 2,
+ "dg02Threshold": 1,
+ "dg12Capacity": 3500,
+ "dg12MinLoad": 30,
+ "dg12CriticalLoad": 10,
+ "dg12ForceTune": 2,
+ "dg12Threshold": 1,
+ "zeMinLoad": 150,
+ "zeCriticalLoad": 100,
+ "zeThreshold": 25,
+ "tuneStep": 1
+}
+}

@@ -1,0 +1,15 @@
+{
+ "cfg":"nodelist",
+ "prt":"modbus",
+ "showUnreached":1,
+ "interPollTime":"10s",
+ "extendedTimeout":2000,
+ "postData":"udp:224.0.0.113:25826",
+ "nodes":[
+          {"a":"192.168.50.12:502:1",      "type":"ABB_PVS_100_TL3",            "name":"INV01"},
+          {"a":"192.168.50.12:502:2",      "type":"ABB_PVS_100_TL3",            "name":"INV02"},
+          {"a":"192.168.50.12:502:3",      "type":"ABB_PVS_100_TL3",            "name":"INV03"}
+		  
+          ]
+}
+

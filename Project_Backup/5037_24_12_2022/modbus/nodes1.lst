@@ -1,0 +1,16 @@
+{
+ "cfg":"nodelist",
+ "prt":"modbus",
+ "showUnreached":1,
+ "interPollTime":"10s",
+ "extendedTimeout":2000,
+ "postData":"udp:224.0.0.113:25826",
+ "nodes":[
+          {"a":"192.168.50.11:502:13",      "type":"ABB_PVS_100_TL1",            "name":"INV13"},
+          {"a":"192.168.50.11:502:14",      "type":"ABB_PVS_100_TL1",            "name":"INV14"},
+          {"a":"192.168.50.11:502:15",      "type":"ABB_PVS_100_TL1",            "name":"INV15"},
+          {"a":"192.168.50.11:502:16",      "type":"ABB_PVS_100_TL1",            "name":"INV16"},
+          {"a":"192.168.50.11:502:17",      "type":"ABB_PVS_100_TL1",            "name":"INV17"}
+         ]
+}
+
