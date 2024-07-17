@@ -1,0 +1,17 @@
+
+{
+ "cfg":"nodelist",
+ "prt":"modbus",
+ "showUnreached":1,
+ "interPollTime":"10s",
+ "postData":"udp:224.0.0.113:25826",
+ "nodes":[ 
+          {"a":"192.168.50.13:503:3",  "type":"EM_ER300P",         "name":"EM01"},
+          {"a":"192.168.50.13:503:2",  "type":"EM_ER300P",         "name":"EM02"},
+          {"a":"192.168.50.13:503:1",  "type":"EM_ER300P",         "name":"EM03"},
+          {"a":"192.168.50.13:503:4",  "type":"EM_ER300P",         "name":"EM04"},
+          {"a":"192.168.50.13:503:18",  "type":"INV",         "name":"INV18"},
+          {"a":"192.168.50.13:503:5",  "type":"WS",                "name":"WS"}
+         ] 
+}	
+	  

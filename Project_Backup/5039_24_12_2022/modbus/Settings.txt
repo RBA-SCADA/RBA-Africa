@@ -1,0 +1,55 @@
+{
+  "EM":
+{
+ "dcCapacity": 680,
+ "prRealRadSetpoint": 1,
+ "EM01": {
+         "dcCapacity": 338.43,
+         "prRealRadSetpoint": 1
+         },
+ "EM02": {
+        "dcCapacity": 464.89,
+        "prRealRadSetpoint": 1
+        },
+ "EM03": {
+         "dcCapacity": 1098.36,
+         "prRealRadSetpoint": 1
+         },
+ "EM04": {
+        "dcCapacity": 100.52,
+        "prRealRadSetpoint": 1
+        },
+ "ZE_EM02": {
+        "dcCapacity": 320,
+        "prRealRadSetpoint": 1
+        },
+ "ZE_EM01": {
+         "dcCapacity": 500,
+         "prRealRadSetpoint": 1
+         },
+ "Grid_EM01": {
+        "dcCapacity": 320,
+        "prRealRadSetpoint": 1
+        },
+ "Grid_EM02": {
+         "dcCapacity": 500,
+         "prRealRadSetpoint": 1
+         }
+
+ },
+"INVERTER":
+ {
+  "dcCapacity": 1700,
+  "prRealRadSetpoint": 250,
+  "Module_inseries": 20,
+  "Module_voc": 45.6,
+  "INV18": {
+            "dcCapacity": 103.495
+           }
+},
+ "PLANT":
+{
+ "prRealRadSetpoint": 1,
+ "dcCapacity": 2002.12
+}
+}
